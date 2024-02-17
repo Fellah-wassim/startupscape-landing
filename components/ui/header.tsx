@@ -26,7 +26,7 @@ export default function Header() {
     >
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <div className="shrink-0 mr-4">
+          <a href="/" className="shrink-0 mr-4">
             <svg
               className="h-14"
               viewBox="0 0 216 72"
@@ -64,7 +64,7 @@ export default function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  href="/"
+                  href="https://startup-scape-co-escape-hackathon.vercel.app/auth/login"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Sign in
@@ -72,7 +72,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="https://startup-scape-co-escape-hackathon.vercel.app/auth/register"
                   className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
                 >
                   <span>Sign up</span>
